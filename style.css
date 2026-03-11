@@ -1,0 +1,28 @@
+/* Custom Styles for 16.coffee */
+
+.menu-item-dot {
+    flex-grow: 1;
+    border-bottom: 1px dotted rgba(26, 26, 26, 0.2);
+    margin: 0 1rem 0.25rem 1rem;
+}
+
+#navbar.scrolled {
+    background-color: rgba(253, 252, 251, 0.9);
+    backdrop-filter: blur(12px);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.mobile-link {
+    transition: color 0.3s ease;
+}
+
+.mobile-link:hover {
+    color: #8b5e3c;
+}
+
+/* Smooth scroll offset for sticky header */
+:target {
+    scroll-margin-top: 80px;
+}
